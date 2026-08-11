@@ -224,24 +224,24 @@
                 <div>
                     <h2 class="text-2xl font-bold text-slate-900 flex items-center gap-2">
                         <i class="fa-solid fa-folder-open text-sky-600 text-xl"></i>
-                        Coursework & Assignments
+                        Coursework & Modules
                     </h2>
-                    <p class="text-sm text-slate-500">Direct navigation links to submitted assignments for City U</p>
+                    <p class="text-sm text-slate-500">Direct navigation links to submitted modules for City U</p>
                 </div>
                 <span class="text-xs font-mono bg-white text-slate-600 px-3 py-1 rounded-full border border-slate-200 shadow-sm hidden sm:inline-block">
-                    2 Files Configured
+                    2 Modules Configured
                 </span>
             </div>
 
             <!-- Assignments Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 
-                <!-- Assignment 1 Card -->
+                <!-- Prompting Fundamentals Card -->
                 <div class="bg-white/90 border border-slate-200/80 rounded-2xl p-6 transition duration-300 flex flex-col justify-between group cyber-glow-hover">
                     <div>
                         <div class="flex items-center justify-between mb-4">
                             <span class="px-3 py-1 bg-sky-50 text-sky-700 text-xs font-mono font-semibold rounded-lg border border-sky-200/60 flex items-center gap-1.5">
-                                <i class="fa-solid fa-file-code"></i> Module 01
+                                <i class="fa-solid fa-lightbulb"></i> Module 01
                             </span>
                             <span class="text-xs text-emerald-600 font-mono font-medium flex items-center gap-1">
                                 <i class="fa-solid fa-circle text-[8px]"></i> Ready
@@ -249,31 +249,31 @@
                         </div>
 
                         <h3 class="text-xl font-bold text-slate-900 group-hover:text-sky-600 transition">
-                            Assignment 1
+                            Prompting Fundamentals
                         </h3>
                         <p class="text-xs text-slate-500 font-mono mt-1 mb-3">
-                            Target File: <span class="text-slate-800 font-semibold">assignment1.html</span>
+                            Target File: <span class="text-slate-800 font-semibold">prompt.html</span>
                         </p>
                         <p class="text-sm text-slate-600 leading-relaxed mb-6">
-                            First course assignment submission for City U Cybersecurity curriculum. Includes foundational security concepts, analysis, and implementation details.
+                            Exploration of core prompt engineering principles, system instructions, structured LLM interaction strategies, and contextual framing techniques.
                         </p>
                     </div>
 
                     <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
                         <span class="text-xs text-slate-500 font-mono">HTML5 / JavaScript</span>
-                        <a href="assignment1.html" class="inline-flex items-center gap-2 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs rounded-xl transition shadow-md shadow-sky-600/20">
-                            <span>Open Assignment 1</span>
+                        <a href="prompt.html" class="inline-flex items-center gap-2 px-4 py-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs rounded-xl transition shadow-md shadow-sky-600/20">
+                            <span>Open Prompting Fundamentals</span>
                             <i class="fa-solid fa-arrow-right text-xs"></i>
                         </a>
                     </div>
                 </div>
 
-                <!-- Assignment 2 Card -->
+                <!-- Prompt Builder Card -->
                 <div class="bg-white/90 border border-slate-200/80 rounded-2xl p-6 transition duration-300 flex flex-col justify-between group cyber-glow-hover">
                     <div>
                         <div class="flex items-center justify-between mb-4">
                             <span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-xs font-mono font-semibold rounded-lg border border-indigo-200/60 flex items-center gap-1.5">
-                                <i class="fa-solid fa-microchip"></i> Module 02
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> Module 02
                             </span>
                             <span class="text-xs text-emerald-600 font-mono font-medium flex items-center gap-1">
                                 <i class="fa-solid fa-circle text-[8px]"></i> Ready
@@ -281,21 +281,20 @@
                         </div>
 
                         <h3 class="text-xl font-bold text-slate-900 group-hover:text-sky-600 transition">
-                            Assignment 2
+                            Prompt Builder
                         </h3>
                         <p class="text-xs text-slate-500 font-mono mt-1 mb-3">
-                            Target File: <span class="text-slate-800 font-semibold">assigment2.html</span>
+                            Target File: <span class="text-slate-800 font-semibold">gen-prompt.html</span>
                         </p>
                         <p class="text-sm text-slate-600 leading-relaxed mb-6">
-                            Second course assignment submission focusing on advanced cybersecurity controls, vulnerability management, and technical reporting.
+                            Interactive prompt construction and synthesis application designed for crafting, parameterizing, and evaluating optimized generative prompts.
                         </p>
                     </div>
 
                     <div class="pt-4 border-t border-slate-100 flex items-center justify-between">
                         <span class="text-xs text-slate-500 font-mono">HTML5 / JavaScript</span>
-                        <!-- Preserving exact link naming: assigment2.html -->
-                        <a href="assigment2.html" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs rounded-xl transition shadow-md shadow-slate-900/10">
-                            <span>Open Assignment 2</span>
+                        <a href="gen-prompt.html" class="inline-flex items-center gap-2 px-4 py-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs rounded-xl transition shadow-md shadow-slate-900/10">
+                            <span>Open Prompt Builder</span>
                             <i class="fa-solid fa-arrow-right text-xs"></i>
                         </a>
                     </div>
@@ -373,7 +372,7 @@
 
                     <form onsubmit="handleTerminalSubmit(event)" class="flex items-center space-x-2 pt-1">
                         <span class="text-emerald-400 font-bold">$</span>
-                        <input type="text" id="terminal-input" placeholder="Type a command (e.g. info, assignment1, help)..." class="w-full bg-transparent text-white focus:outline-none font-mono text-xs sm:text-sm" autocomplete="off">
+                        <input type="text" id="terminal-input" placeholder="Type a command (e.g. info, prompt, gen-prompt, help)..." class="w-full bg-transparent text-white focus:outline-none font-mono text-xs sm:text-sm" autocomplete="off">
                     </form>
                 </div>
             </div>
@@ -394,9 +393,9 @@
                 &copy; 2026 <strong class="text-slate-700">Jiri Jirik</strong>. City U Cybersecurity SME Portal.
             </div>
             <div class="flex items-center space-x-4">
-                <a href="assignment1.html" class="hover:text-sky-600 transition font-medium">assignment1.html</a>
+                <a href="prompt.html" class="hover:text-sky-600 transition font-medium">prompt.html</a>
                 <span>•</span>
-                <a href="assigment2.html" class="hover:text-sky-600 transition font-medium">assigment2.html</a>
+                <a href="gen-prompt.html" class="hover:text-sky-600 transition font-medium">gen-prompt.html</a>
             </div>
         </div>
     </footer>
@@ -555,22 +554,27 @@
 
             switch (cmd) {
                 case 'help':
-                    res.innerHTML = 'Available commands: <span class="text-sky-300">info</span>, <span class="text-sky-300">assignments</span>, <span class="text-sky-300">assignment1</span>, <span class="text-sky-300">assignment2</span>, <span class="text-sky-300">ping</span>, <span class="text-sky-300">clear</span>';
+                    res.innerHTML = 'Available commands: <span class="text-sky-300">info</span>, <span class="text-sky-300">assignments</span>, <span class="text-sky-300">prompt</span>, <span class="text-sky-300">gen-prompt</span>, <span class="text-sky-300">ping</span>, <span class="text-sky-300">clear</span>';
                     break;
                 case 'info':
                     res.innerHTML = '<strong>Name:</strong> Jiri Jirik<br><strong>Institution:</strong> City U<br><strong>SME Area:</strong> Cybersecurity';
                     break;
                 case 'assignments':
-                    res.innerHTML = '1. <a href="assignment1.html" class="text-sky-400 underline">assignment1.html</a><br>2. <a href="assigment2.html" class="text-sky-400 underline">assigment2.html</a>';
+                    res.innerHTML = '1. <a href="prompt.html" class="text-sky-400 underline">prompt.html</a> (Prompting Fundamentals)<br>2. <a href="gen-prompt.html" class="text-sky-400 underline">gen-prompt.html</a> (Prompt Builder)';
                     break;
+                case 'prompt':
+                case 'prompt.html':
                 case 'assignment1':
-                    res.textContent = 'Navigating to assignment1.html...';
-                    window.location.href = 'assignment1.html';
+                    res.textContent = 'Navigating to prompt.html...';
+                    window.location.href = 'prompt.html';
                     break;
+                case 'gen-prompt':
+                case 'gen-prompt.html':
+                case 'genprompt':
                 case 'assignment2':
                 case 'assigment2':
-                    res.textContent = 'Navigating to assigment2.html...';
-                    window.location.href = 'assigment2.html';
+                    res.textContent = 'Navigating to gen-prompt.html...';
+                    window.location.href = 'gen-prompt.html';
                     break;
                 case 'ping':
                 case 'ping cityu':
